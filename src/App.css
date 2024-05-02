@@ -274,3 +274,20 @@ img {
     width: 420px;
     transition: transform ease-in-out 0.7s;
 }
+
+
+/*BUTTONS*/
+.button {
+    display: inline-block;
+    background-color: var(--tshirt-color);
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    transition: all .3s;
+}
+
+.button:hover {
+    box-shadow: rgba(17, 17, 26, 0.3) 0px 8px 24px, rgba(17, 17, 26, 0.3) 0px 16px 56px, rgba(17, 17, 26, 0.3) 0px 24px 80px;
+    background-color: var(--second-color);
+}
