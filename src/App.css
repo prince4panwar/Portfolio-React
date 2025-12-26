@@ -319,6 +319,7 @@ img {
 }
 
 .about__img img {
+    padding: 4rem 0.5rem;
     width: 200px;
     border-radius: .5rem;
     box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.292);
@@ -573,7 +574,7 @@ p.about__text {
     .about__img img {
 /*         width: 300px; */
         width: 305px;
-        transition: transform ease-in-out 0.3s;
+        transition: transform ease-in-out 0.1s;
     }
     .about__img img:hover{
         transform: scale(1.02);
